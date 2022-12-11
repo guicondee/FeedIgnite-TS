@@ -13,7 +13,7 @@ export function SideBar() {
       />
          
       <div className={styles.profile}>
-        <Avatar  src='https://github.com/guicondee.png'/>
+        <Avatar hasBorder  src='https://github.com/guicondee.png'/>
         <strong>Guilherme Condé</strong>
         <span>Front|End Developer</span>
       </div>

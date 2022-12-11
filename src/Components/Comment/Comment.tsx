@@ -25,6 +25,7 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
         hasBorder={false}
         src="https://github.com/diego3g.png"
         alt=''
+        title=''
       />
 
       <div className={styles.commentBox}>
