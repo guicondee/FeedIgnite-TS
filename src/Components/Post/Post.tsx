@@ -14,13 +14,13 @@ interface Author {
 }
 
 interface Content {
-  type: 'paragraph' | 'link';
+  type: string
   content: string
 }
 
 interface PostProps {
-  author: Author,
-  publishedAt: Date,
+  author: Author;
+  publishedAt: Date;
   content: Content[]
 }
 

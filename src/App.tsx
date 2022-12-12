@@ -5,7 +5,6 @@ import { SideBar } from "./Components/SideBar/SideBar"
 import styles from './App.module.css'
 import './global.css'
 
- 
 const posts = [
   {
     id: 1,
@@ -45,13 +44,13 @@ export function App() {
        <SideBar />
 
         <main>
-         {posts.map(posts => {
+         {posts.map(post => {
           return (
             <Post 
-            key={posts.id}
-            author={posts.author}
-            content={posts.content}
-            publishedAt={posts.publishedAt}
+            key={post.id}
+            author={post.author}
+            content={post.content}
+            publishedAt={post.publishedAt}
             />
           )
          })}
